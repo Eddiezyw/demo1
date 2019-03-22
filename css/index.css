@@ -1,0 +1,244 @@
+/*=====banner=====*/
+.main-banner{position:relative;height:452px;overflow:hidden;background:url(../images/inx/loader.gif) 50% no-repeat;}
+.main-banner .slides{position:relative;z-index:1;}
+.main-banner .slides li a{display:block;height:452px;background-repeat:no-repeat;background-position:center center;}
+.main-banner .flex-control-nav{position:absolute;bottom:30px;z-index:2;width:100%;text-align:center;}
+.main-banner .flex-control-nav li{display:inline-block;width:10px;height:10px;margin:0 5px;*display:inline;zoom:1;}
+.main-banner .flex-control-nav a{display:inline-block;width:10px;height:10px;line-height:40px;overflow:hidden;background:rgba(0,0,0,.6);border-radius:50%;-webkit-border-radius:50%;cursor:pointer;}
+.main-banner .flex-control-nav .flex-active{background:#c20900;}
+/*=====banner end=====*/
+
+
+/*=====about=====*/
+.content-1{
+    width:100%;
+    padding:50px 0;
+}
+.content-1>div{
+    width:1200px;
+    margin:0 auto;
+    overflow:hidden;
+}
+.content-1>div>section{
+    float:left;
+}
+.about{
+    margin-right:61px;
+}
+.intro{
+    width:320px;
+}
+.intro>h3{
+    font-size:18px;
+    color:#333;
+    line-height:60px;
+}
+.intro>a{
+    display:block;
+    width:320px;
+    height:210px;
+    overflow:hidden;
+    margin-bottom:30px;
+}
+.intro>.video{
+    width:320px;
+    height:210px;
+    overflow:hidden;
+	padding-bottom:30px;
+	
+}
+.intro>.video>iframe{width:320px;height:210px;}
+.intro>.video>video{ padding:0px; margin:0px; vertical-align:top; background:#000;}
+.intro>span{
+    line-height:24px;
+}
+.intro>a>img{
+    width:100%;
+}
+.content-1 a.more{
+    height:32px;
+    line-height:32px;
+    margin:10px 0;
+}
+/*=====about end=====*/
+
+.news{
+    overflow:hidden;
+    margin-right:61px;
+}
+.news-head{
+    overflow:hidden;
+    width:436px;
+    border-bottom:1px solid #ccc;
+}
+.news-head>li{
+    float:left;
+}
+.news-head>li>a{
+    display:block;
+    font-size:18px;
+    line-height:59px;
+    color:#999;
+    margin-right:15px;
+}
+.news-head>li>a:hover{
+    color:#c20900;
+}
+.news-head>li.active>a{
+    color:#333;
+    font-weight:bold;
+    border-bottom: 1px solid #c20900;
+}
+.tab-body{
+    height:296px;
+}
+.tab-body ul:first-child{
+    display:block;
+}
+.tab-content{
+    display:none;
+    width:436px;
+    overflow:hidden;
+}
+.tab-content li>a{
+    line-height:38px;
+    color:#666;
+}
+.tab-content li>a:hover{
+    color:#c20900;
+    text-decoration: underline;
+}
+.latest-news{
+    overflow:hidden;
+    padding:33px 0;
+    border-bottom:1px dashed #ccc;
+}
+.latest-news>a.time>span{
+    display:block;
+    line-height:18px;
+}
+.latest-news>a.time:hover{
+    color:#fff;
+    text-decoration: none;
+}
+.latest-news>a.time{
+    float:left;
+    width:74px;
+    height:64px;
+    background:#c20900;
+    color:#fff;
+    text-align: center;
+    padding-top:10px;
+}
+.latest-news>a.time h1{
+    font-size:40px;
+}
+.latest-news>div{
+    float:right;
+    width:344px;
+}
+.latest-news>div>a{
+    font-size:16px;
+    color:#373737;
+    font-weight:bold;
+    line-height:32px;
+}
+.latest-news>div>a:hover{
+    color:#c20900;
+}
+
+/*=====group brand=====*/
+.content-2,.content-3{
+    width:100%;
+    background:#f8f8f8;
+}
+.content-2{
+    border-bottom:1px solid #ccc;
+}
+.index-header{
+    width:1200px;
+    margin:0 auto;
+    overflow:hidden;
+}
+.index-header>div{
+    line-height:70px;
+    font-size:16px;
+    color:#a8a8a8;
+}
+.index-header>div>span{
+    display:inline-block;
+    font-size:18px;
+    margin-right:10px;
+    color:#333;
+    font-weight: bold;
+    border-bottom: 1px solid #c20900;
+}
+.index-header>b{
+    line-height:70px;
+    font-size:16px;
+    color:#999;
+}
+
+.content-3>div{
+    width:1200px;
+    overflow:hidden;
+    margin:0 auto;
+}
+.brand-list{
+    width:1400px;
+    overflow:hidden;
+    margin:30px auto;
+}
+.brand-list>li{
+    float:left;
+    position:relative;
+    margin:20px 15px;
+    transition:0.5s;
+}
+.brand-list>li:hover{
+    box-shadow: 0 10px 20px #ccc;
+}
+.brand-list>li:hover>div{
+    box-shadow: 0 -5px 10px rgba(0,0,0,.5);
+}
+.brand-list>li>a{
+    display:block;
+    overflow:hidden;
+    width:270px;
+    height:215px;
+    text-align: center;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:100%;
+}
+.brand-list>li>a:hover{
+    background-size:110%;
+}
+.brand-name{
+    display:block;
+    width:270px;
+    height:60px;
+    background:rgba(255,255,255,.9);
+    position:absolute;
+    bottom:0;
+    overflow:hidden;
+}
+.brand-name>div{
+    float:left;
+    font-size:16px;
+    color:#970000;
+    margin-top:10px;
+    margin-left:10px;
+}
+.brand-name>div>h4{
+    font-family:"Arial";
+    color:#252525;
+    line-height:18px;
+}
+.brand-name>span{
+    float:right;
+    margin-right:10px;
+    margin-top:10px;
+}
+/*=====group brand end=====*//* CSS Document */
+

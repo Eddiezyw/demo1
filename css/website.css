@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+.f_link{ overflow:hidden;}
+.f_link>li{ padding:10px 20px; border:1px #ddd solid; margin-right:15px; display:inline-block; color:#999;}
+.f_link>li>i{ margin-right:5px;}
+.f_link>li:hover{ color:#fff; background:#b90000;}
+.f_link>li:hover>a{color:#fff;}
+
+.w_map{ overflow:hidden;}
+.w_map>li{ padding:10px 20px; border:1px #ddd solid; margin-bottom:15px;}
+.w_map>li>a{ color:#222; font-size:17px; }
+.w_map>li>ol{ margin-top:5px;}
+.w_map>li>ol>li { display:inline-block; margin-right:20px;}
+.w_map>li>ol>li>a{ color:#666;}
+.w_map>li a:hover{ text-decoration:underline; color:#b90000;}
+
