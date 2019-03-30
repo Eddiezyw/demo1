@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html >
+<head>
+<title>无标题文档</title>
+<script>
+var a=new Array("../images/zy1.jpg","../images/zy2.jpg");
+var i=0;
+function change()
+{
+document .getElementById ("image").src=a[i];
+i++;
+if(i==2)
+{
+i=0;
+}
+}</script>
+</head>
+<body>
+<table>
+<tr>
+<td onclick="change()"><img id="image" src="../images/zhyhhz.jpg" width="50%" height="50%"/></td>
+</tr>
+</table>
+</body>
+</html>
